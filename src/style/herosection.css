@@ -1,0 +1,56 @@
+.hero {
+    max-width: 100vw;
+    padding: 90px 0px;
+    background-image: url('../assets/image/pexels-eberhard-grossgasteiger-1421903.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #FFF8DE;
+    font-size: 6rem;
+    letter-spacing: 20px;
+    -webkit-box-reflect: right 1px linear-gradient(transparent, #d6e8db6b);
+    line-height: .9em;
+    outline: none;
+    animation: lightning 5s linear infinite;
+}
+
+/* @keyframes lightning {
+
+    0%,
+    10%,
+    30%,
+    50%,
+    70%,
+    90%,
+    100% {
+        color: #99A98F;
+        text-shadow: none;
+    }
+
+    20%,
+    60%,
+    80% {
+        color: #fff;
+        text-shadow: 0 0 10px #99A98F,
+            0 0 20px #99A98F,
+            0 0 30px #99A98F,
+            0 0 40px #99A98F,
+            0 0 45px #99A98F,
+    }
+} */
+
+@media (max-width:768px) {
+    .hero {
+        padding: 60px 0px;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+    }
+}

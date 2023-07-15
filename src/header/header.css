@@ -1,0 +1,14 @@
+.header_parent {
+    background-color: #CDC2AE;
+    background-color: #116A7B;
+    background-color: #ECE5C7;
+    font-family: "PolySans", sans-serif;
+    padding: 10px 0;
+}
+
+.header_parent .logo {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #FFF8DE;
+    color: #116A7B;
+}
